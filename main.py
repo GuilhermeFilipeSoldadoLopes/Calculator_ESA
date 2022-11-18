@@ -43,7 +43,7 @@ while True:
     choice = input("Enter choice(1/2/3/4/5): ")
 
     # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3', '4', '5'):
 
         num1 = input("Enter first number: ")
         while isNotNumber(num1):
